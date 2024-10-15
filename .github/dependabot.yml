@@ -1,7 +1,7 @@
 ---
 version: 2
 registries:
-  gradle-artifactory:
+  gradle-artifactory1:
     type: maven-repository
     url: https://acme.jfrog.io/artifactory/my-gradle-registry
     username: octocat
