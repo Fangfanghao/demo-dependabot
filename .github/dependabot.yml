@@ -28,3 +28,15 @@ updates:
       - seismic-registry
     schedule:
       interval: "daily"
+    groups:
+      dev-dependencies:
+        dependency-type: "production"
+        applies-to: version-updates
+        patterns:
+          - "react*"
+      dev-dependencies:
+        dependency-type: "development"
+        applies-to: version-updates
+        patterns:
+          - "axios"
+          - "eslint"
