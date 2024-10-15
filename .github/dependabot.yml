@@ -1,9 +1,9 @@
 ---
 version: 2
-registries:
-  seismic-registry:
-    type: npm-registry
-    url: https://registry.npmjs.org
+# registries:
+#   seismic-registry:
+#     type: npm-registry
+#     url: https://registry.npmjs.org
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -11,8 +11,8 @@ updates:
       interval: "daily"
   - package-ecosystem: npm
     directory: "/javascript"
-    registries:
-      - seismic-registry
+    # registries:
+    #   - seismic-registry
     schedule:
       interval: "daily"
   # - package-ecosystem: bundler
