@@ -22,14 +22,15 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      dev-dependencies:
+      prod-dependencies:
         dependency-type: "production"
-        applies-to: version-updates
+        # applies-to: version-updates
         patterns:
-          - "react*"
+          - "react"
+          - "react-dom"
       dev-dependencies:
         dependency-type: "development"
-        applies-to: version-updates
+        # applies-to: version-updates
         patterns:
           - "axios"
           - "eslint"
