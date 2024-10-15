@@ -5,10 +5,10 @@ registries:
     type: npm-registry
     url: https://registry.npmjs.org
 updates:
-  # - package-ecosystem: "github-actions"
-  #   directory: "/javascript"
-  #   schedule:
-  #     interval: "daily"
+  - package-ecosystem: "github-actions"
+    directory: "/javascript"
+    schedule:
+      interval: "daily"
   - package-ecosystem: npm
     directory: "/javascript"
     # target-branch: feature/test-dependabot
