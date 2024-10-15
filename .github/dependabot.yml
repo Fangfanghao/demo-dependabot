@@ -1,17 +1,10 @@
 ---
 version: 2
-# registries:
-#   gradle-artifactory1:
-#     type: maven-repository
-#     url: https://acme.jfrog.io/artifactory/my-gradle-registry
-#     username: octocat
-#     password: ${{secrets.MY_ARTIFACTORY_PASSWORD}}
 registries:
   seismic-registry:
     type: npm-registry
     url: https://registry.npmjs.org
-    # username: octocat
-    token: ${{secrets.MY_NPM_PASSWORD}}
+    # token: ${{secrets.MY_NPM_PASSWORD}}
     replaces-base: true
 updates:
   # - package-ecosystem: "github-actions"
