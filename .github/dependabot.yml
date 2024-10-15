@@ -10,7 +10,7 @@ registries:
   seismic-registry:
     type: npm-registry
     url: https://registry.npmjs.org
-    username: octocat
+    # username: octocat
     token: ${{secrets.MY_NPM_PASSWORD}}
 updates:
   # - package-ecosystem: "github-actions"
