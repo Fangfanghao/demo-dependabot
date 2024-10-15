@@ -5,10 +5,10 @@ registries:
     type: npm-registry
     url: https://registry.npmjs.org
 updates:
-  # - package-ecosystem: "github-actions"
-  #   directory: "/"
-  #   schedule:
-  #     interval: "weekly"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
   - package-ecosystem: npm
     directory: "/javascript"
     registries:
