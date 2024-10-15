@@ -12,6 +12,7 @@ registries:
     url: https://registry.npmjs.org
     # username: octocat
     token: ${{secrets.MY_NPM_PASSWORD}}
+    replaces-base: true
 updates:
   # - package-ecosystem: "github-actions"
   #   directory: "/javascript"
