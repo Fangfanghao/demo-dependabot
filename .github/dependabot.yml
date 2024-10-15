@@ -11,7 +11,7 @@ updates:
   #     interval: "daily"
   - package-ecosystem: npm
     directory: "/javascript"
-    target-branch: feature/test-dependabot
+    # target-branch: feature/test-dependabot
     registries:
       - seismic-registry
     schedule:
