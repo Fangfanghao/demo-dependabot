@@ -1,11 +1,11 @@
 ---
 version: 2
-registries:
-  seismic-registry:
-    type: npm-registry
-    url: https://registry.npmjs.org
+# registries:
+#   seismic-registry:
+#     type: npm-registry
+#     url: https://registry.npmjs.org
     # token: ${{secrets.MY_NPM_PASSWORD}}
-    replaces-base: true
+    # replaces-base: true
 updates:
   # - package-ecosystem: "github-actions"
   #   directory: "/javascript"
@@ -17,8 +17,8 @@ updates:
     allow: 
       - dependency-name: "@seismic/*"
       - dependency-name: "seismic-*"
-    registries:
-      - seismic-registry
+    # registries:
+    #   - seismic-registry
     schedule:
       interval: "daily"
     groups:
