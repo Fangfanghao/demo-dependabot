@@ -1,9 +1,9 @@
 ---
 version: 2
-# registries:
-#   seismic-registry:
-#     type: npm-registry
-#     url: https://registry.npmjs.org
+registries:
+  seismic-registry:
+    type: npm-registry
+    url: https://registry.npmjs.org
 updates:
   # - package-ecosystem: "github-actions"
   #   directory: "/javascript"
