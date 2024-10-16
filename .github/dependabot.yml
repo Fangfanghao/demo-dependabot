@@ -19,13 +19,15 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      prod-dependencies:
-        dependency-type: "production"
-        applies-to: version-updates
+      # prod-dependencies:
+      #   dependency-type: "production"
+      #   applies-to: version-updates
         # patterns:
         #   - "react*"
       dev-dependencies:
         dependency-type: "development"
         applies-to: version-updates
+        patterns:
+          - "*"
         # exclude-patterns:
         #   - "react*"
