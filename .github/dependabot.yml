@@ -24,11 +24,11 @@ updates:
     groups:
       react-dependencies:
         # dependency-type: "production"
-        # applies-to: version-updates
+        applies-to: version-updates
         patterns:
           - "react*"
       other-dependencies:
         # dependency-type: "development"
-        # applies-to: version-updates
+        applies-to: version-updates
         exclude-patterns:
           - "react*"
