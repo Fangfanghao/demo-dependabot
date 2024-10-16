@@ -14,9 +14,9 @@ updates:
   - package-ecosystem: npm
     directory: "/javascript"
     target-branch: feature/test-dependabot
-    allow: 
-      - dependency-name: "@seismic/*"
-      - dependency-name: "seismic-*"
+    # allow: 
+    #   - dependency-name: "@seismic/*"
+    #   - dependency-name: "seismic-*"
     # registries:
     #   - seismic-registry
     schedule:
