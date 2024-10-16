@@ -13,10 +13,7 @@ updates:
   #     interval: "daily"
   - package-ecosystem: npm
     directory: "/javascript"
-    target-branch: feature/test-dependabot
-    # allow: 
-    #   - dependency-name: "@seismic/*"
-    #   - dependency-name: "seismic-*"
+    target-branch: main
     # registries:
     #   - seismic-registry
     schedule:
