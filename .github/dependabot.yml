@@ -21,12 +21,12 @@ updates:
     groups:
       prod-dependencies:
         dependency-type: "production"
-        applies-to: version-updates
+        # applies-to: version-updates
         # patterns:
         #   - "react*"
       dev-dependencies:
         dependency-type: "development"
-        applies-to: version-updates
+        # applies-to: version-updates
     labels:
       - 'dependencies'
       - 'hao'
