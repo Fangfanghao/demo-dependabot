@@ -27,6 +27,10 @@ updates:
       dev-dependencies:
         dependency-type: "development"
         applies-to: version-updates
+    labels:
+      - 'dependencies'
+      - 'hao'
+      - 'fangfang'
       #   patterns:
       #     - "*"
         # exclude-patterns:
