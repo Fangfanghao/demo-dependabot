@@ -4,15 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "react": "beta",
-    "colors": "^1.4.0",
-    "browserify": "^17.0.0",
-    "chalk": "^4.1.2",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.4.1",
-    "jest": "^27.4.7",
-    "prettier": "^2.5.1"
+    "react": "beta"
   }
 }
