@@ -7,7 +7,7 @@ lib1-fangfanghao@dev:
   resolved "https://registry.npmjs.org/lib1-fangfanghao/-/lib1-fangfanghao-1.2.0.tgz"
   integrity sha512-oegYA1hpq6MbFdkbrRyMXlggyyEjsn7IeFFz/IPg1GB00R773omBcTxT4P3i5DdXsk6iC/U82HpkuXSXFfjcNA==
 
-lib2-fangfanghao@1.0.0, lib2-fangfanghao@dev:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/lib2-fangfanghao/-/lib2-fangfanghao-1.0.0.tgz#90c9e4566e4b545c9e462ab3e48144b50b3e0599"
-  integrity sha512-+8uK1aM7x1yvOXQ5vKWtfNRoY6N9Gl3+dbitDBbuqW2hKq0f6YMAE2xKWuPofNapli4mqsKyhx6Ua9Y1hPN7nw==
+lib2-fangfanghao@1.0.2, lib2-fangfanghao@dev:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/lib2-fangfanghao/-/lib2-fangfanghao-1.0.2.tgz#d3aa9c777e674d3ac337bdfa01cbeae4cb79f5de"
+  integrity sha512-Zd5L5VFUtQtALfpUEzh0SFrvUyxNRO1yHVA9sF/KfFMv5ZgHyrolzV3+8wkPPPHWPtsFNGwRl04tVffi6OMGUA==
