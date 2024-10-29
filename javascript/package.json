@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "lib1-fangfanghao": "dev"
+    "lib1-fangfanghao": "dev",
+    "lib2-fangfanghao": "dev"
+  },
+  "resolutions": {
+    "lib2-fangfanghao": "1.0.0"
   }
 }
