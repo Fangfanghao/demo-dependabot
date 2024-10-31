@@ -2,10 +2,12 @@
 # yarn lockfile v1
 
 
-lib1-fangfanghao@dev:
-  version "1.2.0"
-  resolved "https://seismic.jfrog.io/artifactory/api/npm/npm/lib1-fangfanghao/-/lib1-fangfanghao-1.2.0.tgz#80d2743d53cd841c9687fa31567f047221b1ea0d"
-  integrity sha512-oegYA1hpq6MbFdkbrRyMXlggyyEjsn7IeFFz/IPg1GB00R773omBcTxT4P3i5DdXsk6iC/U82HpkuXSXFfjcNA==
+lib1-fangfanghao@latest:
+  version "1.2.1"
+  resolved "https://seismic.jfrog.io/artifactory/api/npm/npm/lib1-fangfanghao/-/lib1-fangfanghao-1.2.1.tgz#c53104d51765440c510cac8b33e809a0b651e24d"
+  integrity sha512-mZ4/epidJRuGo5SuavEiPCP1x97D2Un8cQyoUGDrvRoQJNlVJy6lFS12OFgNFx2NmNTu+5p+B4vprBfP7zbl1g==
+  dependencies:
+    lib2-fangfanghao "1.0.0"
 
 lib2-fangfanghao@1.0.0:
   version "1.0.0"
