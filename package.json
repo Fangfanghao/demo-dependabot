@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lib1-fangfanghao": "latest",
+    "lib2-fangfanghao": "dev"
+  },
+  "overrides": {
+    "lib2-fangfanghao": "$lib2-fangfanghao"
+  },
+  "resolutions": {
+    "lib2-fangfanghao": "1.0.0"
+  }
+}
