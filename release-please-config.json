@@ -1,0 +1,18 @@
+{
+    "packages": {
+        ".": {
+            "changelog-path": "CHANGELOG_new.md",
+            "release-type": "node",
+            "draft": false,
+            "prerelease": false,
+            "changelog-sections": [
+                { "type": "feat", "section": ":rocket:&nbsp;&nbsp;Features" },
+                { "type": "fix", "section": ":bug:&nbsp;&nbsp;Bug Fixes" },
+                { "type": "refactor", "section": ":sunglasses:&nbsp;&nbsp;Refactor", "hidden": true },
+                { "type": "perf", "section": ":bullettrain_front:&nbsp;&nbsp;Performance Improvements" },
+                { "type": "style", "section": ":haircut:&nbsp;&nbsp;Style" }
+            ]
+        }
+    },
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
